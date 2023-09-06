@@ -1,0 +1,108 @@
+*{
+    margin:0;
+}
+
+#container-perfil{
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 2vh;
+}
+
+#container-imagens-perfil{
+    height: 70%;
+    width: 100%;
+    
+}
+
+#capa-perfil{
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/banner-linkedin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#foto-perfil{
+    height: 115px;
+    width: 115px;
+    background-image: url("assets/foto-perfil.jpg");
+    background-size: cover;
+    border: solid whitesmoke;
+    border-radius: 80%;
+    position: absolute;
+    top: 19%;
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    -ms-border-radius: 80%;
+    -o-border-radius: 80%;
+}
+
+#container-titulos{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#perfil-cargo{
+    
+}
+
+#container-sobre-mim{
+    height: 30vh;
+    text-align: justify;
+}
+
+#titulo-sobre-mim{
+    font-size: 2vh;
+}
+
+#texto-sobre-mim{
+    height: 100%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#texto-sobre-mim p{
+    margin-bottom: 3vh;
+    width: 80%;
+}
+
+#container-perfil-skils{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    
+}
+
+#titulo-skill{
+    font-size: 3vh;
+}
+
+#container-skill{
+    height: 100%;
+    width: 90%;
+}
+
+.conteiner-detalhe-skill{
+    margin-left: 5vh;
+    margin-bottom: 1vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.titulo{
+    width: 11%;
+    padding: 1vh;
+    font-weight: 800;
+}
+
+.descricao{
+    font-weight: 400;
+}
