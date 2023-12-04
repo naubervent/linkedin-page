@@ -1,6 +1,9 @@
 *{
     margin:0;
 }
+p, h1, h2{
+   margin-left: 10px; 
+} 
 
 #container-perfil{
     height: 50vh;
@@ -98,7 +101,7 @@
 }
 
 .titulo{
-    width: 11%;
+    width: 20%;
     padding: 1vh;
     font-weight: 800;
 }
